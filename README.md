@@ -1,2 +1,2 @@
-# eso207
+# ESO207A
 All the programming assignments done during the course ESO207
