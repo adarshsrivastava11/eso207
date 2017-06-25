@@ -28,9 +28,8 @@ public class Coin{
 		bw.close();
 
 	}
-	
+
 	public static void find_coins(int a[],int c[],int i)throws Exception{
-		
 		if(i > 1){
 			if(a[i] == a[i-2]+c[i-1]){
 				find_coins(a,c,i-2);
