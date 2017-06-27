@@ -15,7 +15,7 @@ public class Main {
         } 
     }
 
-    private final Node nil = new Node(-1); 
+    private final Node nil = new Node(-100000); 
     private Node root = nil;
 
     public void printTree(Node node) {
@@ -29,7 +29,7 @@ public class Main {
         else
             ch = 'B';
         System.out.print(node.key+" "+ch+" ");
-        if (node.parent.key == -1)
+        if (node.parent.key == -100000)
             System.out.print("NIL");
         else
             System.out.print(node.parent.key);
